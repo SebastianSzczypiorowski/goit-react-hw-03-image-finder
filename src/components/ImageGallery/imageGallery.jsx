@@ -5,12 +5,12 @@ import GalleryItem from './imageGalleryItem';
 class ImageGallery extends Component {
   static defaultProps = {
     galleryItems: [],
-    pages: 0,
+    currentPage: 0,
   };
 
   static propTypes = {
     galleryItems: PropTypes.array,
-    pages: PropTypes.number,
+    currentPage: PropTypes.number,
   };
 
   render() {
