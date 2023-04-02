@@ -2,9 +2,15 @@ import PropTypes from 'prop-types';
 
 const Button = ({ handleLoadMore }) => {
   return (
-    <button type="button" onClick={() => handleLoadMore()}>
-      Load More
-    </button>
+    <div className="button-container">
+      <button
+        className="loadMore-button"
+        type="button"
+        onClick={() => handleLoadMore()}
+      >
+        Load More
+      </button>
+    </div>
   );
 };
 
